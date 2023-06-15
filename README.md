@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Challenge URL: [Front End Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
-- Solution URL: [Solution](https://github.com/Lia-Moon/Product-Preview-Card) **This brings back to this Github page**
+- Solution URL: [Solution](https://github.com/Lia-Moon/Product-Preview-Card) ** **This brings you back to this Github page**
 - Live Site URL: [Live site](https://product-preview-card-lia-moon.vercel.app/)
 
 ## My process
@@ -48,5 +48,5 @@ Users should be able to:
 ## Author
 
 - Website - [Júlia Vieira](https://juliavieira.xyz/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Lia-Moon](https://www.frontendmentor.io/profile/Lia-Moon)
 - Github - [@Lia-Moon](https://github.com/Lia-Moon)
