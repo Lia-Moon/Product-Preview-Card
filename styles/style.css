@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+/*font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;     MEDIUM 500 e BOLD 700
+
+### Primary
+
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+*/
+
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    background: var(--cream);
+}
+
+.main__conteudo {
+    display: flex;
+    width: 550px;
+    margin: 10% auto;
+    gap: 25px;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.main__imagem {
+    width: 270px;
+    border-radius: 10px 0 0 10px;
+}
+
+.main__texto {
+    font-size: 14px;
+    padding: 15px 25px 15px 0px;
+    min-width: 230px;
+}
+
+.main__texto p {
+    margin-bottom: 20px;
+}
+
+.main__texto--tipo--produto {
+    font-family: 'Montserrat', sans-serif;    
+    font-weight: 500;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: var(--very-dark-blue);
+}
+
+.main__texto--nome--perfume {
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    color: var(--very-dark-blue);
+}
+
+.main__texto--descricao--perfume {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 22px;
+    color: var(--very-dark-blue);
+}
+
+.main__texto--valores {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main__texto--novo--preco {
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    color: var(--dark-cyan);
+}
+
+.main__texto--antigo--preco {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: var(--dark-grayish-blue);
+    text-decoration: line-through;
+}
+
+.main__texto--botao {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--cream);
+    padding: 10px 60px;
+    background-color: var(--dark-cyan);
+    border-radius: 6px;
+    border-color: var(--dark-cyan);
+    border-style: solid;
+}
+
+.main__texto--botao:hover {
+    cursor: pointer;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+    
+
+.attribution a {
+    color: var(--dark-cyan);
+    text-decoration: none;
+}
