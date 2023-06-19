@@ -2,17 +2,6 @@
 
 /*font-family: 'Fraunces', serif;
 font-family: 'Montserrat', sans-serif;     MEDIUM 500 e BOLD 700
-
-### Primary
-
-- Dark cyan: hsl(158, 36%, 37%)
-- Cream: hsl(30, 38%, 92%)
-
-### Neutral
-
-- Very dark blue: hsl(212, 21%, 14%)
-- Dark grayish blue: hsl(228, 12%, 48%)
-- White: hsl(0, 0%, 100%)
 */
 
 :root {
@@ -38,13 +27,9 @@ body {
     border-radius: 10px;
 }
 
-.main__imagem--desktop {
+.main__conteudo img {
     width: 270px;
     border-radius: 10px 0 0 10px;
-}
-
-.main__imagem--mobile {
-    display: none;
 }
 
 .main__texto {
@@ -134,12 +119,7 @@ body {
         gap: 0px;
     }
 
-    .main__imagem--desktop {
-        display: none;
-    }
-
-    .main__imagem--mobile {
-        display: block;
+    .main__conteudo img {
         width: 100%;
         border-radius: 10px 10px 0 0;
     }
